@@ -1,0 +1,3 @@
+S.no : Student name : Age : Teacher : Bus
+1 : assj : 13 : zf : sc 
+3 : afs : 13 : asc : ad 
