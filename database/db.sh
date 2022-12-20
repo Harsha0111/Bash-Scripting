@@ -40,7 +40,7 @@ options () {
       echo -n "Enter Student Age: "
       read age;
       echo -n "Enter Teacher Name: "
-      read t_name;
+      iread t_name;
       echo -n "Enter Private/School Bus: "
       read bus;
       mysql -h $MYSQL_HOST -u $MYSQL_USERNAME -p$MYSQL_PASSWORD -e "USE shell;UPDATE student SET s_name='$s_name', age='$age', t_name='$t_name', bus='$bus' WHERE s_no =$s_no;" 2>/dev/null
